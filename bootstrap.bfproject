@@ -1,4 +1,20 @@
 opendir: file:///home/bmarkham/c/bootstrap
+filegloblist: *.xml
+filegloblist: *.txt
+filegloblist: *.shtml
+filegloblist: *.py
+filegloblist: *.pl
+filegloblist: *.php
+filegloblist: *.js
+filegloblist: *.java
+filegloblist: *.htm
+filegloblist: *.html
+filegloblist: *.h
+filegloblist: *.css
+filegloblist: *.cpp
+filegloblist: *.cgi
+filegloblist: *.c
+filegloblist: *
 spell_check_default: 1
 display_right_margin: 0
 c2e.convert_special: 0
@@ -19,8 +35,10 @@ view_blockstack: 1
 leftpanel_active_tab: 0
 default_mime_type: text/html
 c2e.IE_apos_workaround: 0
+recent_files: file:///home/bmarkham/c/bootstrap/index.html
+recent_files: file:///home/bmarkham/c/bootstrap/style.css
+openfiles: /home/bmarkham/c/bootstrap/index.html:24353:22547:1:
 openfiles: /home/bmarkham/c/bootstrap/style.css:0:0:0:
-openfiles: /home/bmarkham/c/bootstrap/index.html:3754:3105:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
