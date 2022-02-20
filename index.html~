@@ -64,8 +64,8 @@
 				</p>			
 				<button class="btn btn-primary byn-lg" 
 				data-bs-toggle="modal"
-				data-bs-target="#enroll">
-					Dig Deeper
+				data-bs-target="#contact">
+					Contact Brett
 				</button>
 			</div>
 			<img class="img-fluid w-25 d-none d-sm-block" src="img/undraw_online_gallery_re_3098.svg" alt="Gallery">		
@@ -75,7 +75,7 @@
 	
 	</section>	
 	
-	<!-- Contact -->
+	<!-- Contact 
 	<section class="bg-primary text-light p-5">
 		<div class="container">
 			<div class="d-md-flex justify-content-between align-items-center">
@@ -91,7 +91,7 @@
 		</div>	
 	
 	
-	</section>
+	</section>-->
 	
 	<!-- Boxes -->
 	<section class="p-5 ">
@@ -520,7 +520,7 @@
 		<div class="container">
 			<div class="row g-4">
 				<div class="col-md">
-					<h2 class="text-center mb-4">Contact Info</h2>
+					<h2 class="text-center mb-4">Contact Me</h2>
 					<ul class="list-group list-group-flush lead">
 						<li class="list-group-item">
 							<span class="fw-bold">Main Location: </span>New Ipswich, NH						
@@ -540,6 +540,42 @@
 		</div>	
 	</section>
 	
+	<section class="p-5">
+	  <div class="container">
+			<div class="row g-4">
+				<div class="col-md">
+				  <form class="needs-validation" novalidate action="/cgi-bin/cgi-smtp.cgi" method="GET">
+					<div class="mb-3">
+						<label for="name" class="col-form-label">Name:</label>
+						<input type="text" class="form-control" id="name" required />
+						<div class="invalid-feedback">
+        					Please enter your name
+      				</div>
+					</div>				
+					<div class="mb-3">
+						<label for="email" class="col-form-label">Email:</label>
+						<input type="text" class="form-control" id="email" required />
+						<div class="invalid-feedback">
+        					Please enter your email address
+      				</div>
+					</div>
+					<div class="mb-3">
+						<label for="message" class="col-form-label">Message:</label>
+						<input type="text" class="form-control" id="message" required />
+						<div class="invalid-feedback">
+        					Can't be blank
+      				</div>
+					</div>
+					<div class="mb-3">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+					</form>
+				</div>  
+			</div>
+		</div>
+	
+	</section>
+	
 	<!-- footer -->
 	<footer class="p-5 bg-dark text-white text-center position-relative">
 		<p class="lead">Copyright &copy; Brett Markham 2022</p>
@@ -548,8 +584,8 @@
 		</a>
 	</footer>
 	
-	<!-- Modal 1 -->
-	<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+	<!-- Modal 1 Contact form-->
+	<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -559,18 +595,27 @@
       <div class="modal-body">
       	<p class="lead">
 				Fill out this form and I'll get back to you.	  
-				<form>
-					<div class="mb-3">
+				<form class="needs-validation" novalidate name="contact" role="form">
+					<div class="form-group mb-3">
 						<label for="name" class="col-form-label">Name:</label>
-						<input type="text" class="form-control" id="name" />
+						<input type="text" class="form-control" id="name" required />
+						<div class="invalid-feedback">
+        					Please enter your name
+      				</div>
 					</div>				
-					<div class="mb-3">
+					<div class="form-group mb-3">
 						<label for="email" class="col-form-label">Email:</label>
-						<input type="text" class="form-control" id="email" />
+						<input type="text" class="form-control" id="email" required />
+						<div class="invalid-feedback">
+        					Please enter your email address
+      				</div>
 					</div>
-					<div class="mb-3">
+					<div class="form-group mb-3">
 						<label for="message" class="col-form-label">Message:</label>
-						<input type="text" class="form-control" id="message" />
+						<input type="text" class="form-control" id="message" required />
+						<div class="invalid-feedback">
+        					Can't be blank
+      				</div>
 					</div>
 				
 				</form>      
@@ -578,13 +623,13 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+        <button type="submit" class="btn btn-primary"id="submit">Submit</button>
       </div>
     </div>
   </div>
 </div>
-
-	<!-- Modal 2 -->
+	
+	<!-- Modal 2 Experience-->
 	<div class="modal fade" id="experience" tabindex="-1" aria-labelledby="experienceLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -601,7 +646,16 @@
       	and Linux infrastructure.  Services include DHCP, DNS, SMTP and others. Plan and manage infrastructure projects and
       	associated personnel and contractors.  Complete government compliance reports.  Write software as needed in Java, C or
       	Python for utilities. Implement, maintain and decommission services.  Implement and maintain successful
-      	security posture for a network with 16,000 public IP addresses and up to 6,500 clients.</p>
+      	security posture for a network with 16,000 public IP addresses and up to 6,500 clients. Maintain company web site in Drupal.</p>
+      	<p><strong>Linux Engineer, Programmer</strong> Synergistics Consulting, 1995-2001</p>
+      	<p>Develop software in Object Pascal and C for GARIS and Linux administration tasks.  Implement and maintain Linux
+      	and network infrastructure for clients including Medical Outcomes Management, Hitachi, Thomson and Thomson, Netegrity,
+      	and others. Maintain company website.</p>
+      	<p><strong>Programmer</strong> Practice Management Systems, 1993-1995</p>
+      	<p>Develop medical billing software in MS BASIC and C for a variety of the company's clients.</p>
+      	<p><strong>Electrical Engineer, Junior</strong> D/A Technology, 1991-1993</p>
+      	<p>Develop embedded systems in C for surveillance and access control systems, troubleshoot and repair to both
+      	board and component level both in shop and in the field.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -620,6 +674,29 @@
 			center:[-71.060982, 42.35725],
 			zoom: 18,
 		});		
+	</script>
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()	
+	
 	</script>
 
 </body>
